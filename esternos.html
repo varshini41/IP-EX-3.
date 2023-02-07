@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> esternos </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+}
+.button {
+  background-color: #f44336;
+  border-radius:px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: white;
+  font-size: 20px;
+  margin: 9px 2px;
+  cursor: pointer;
+  text-align: right;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+.checked {
+  color:orange;
+}body {font-family: Arial, Helvetica, sans-serif;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/
+button {
+  background-color: #e7e7e7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #e7e7e7;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 50%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+#myDIV {
+  height:300px;
+  font-style:italic;
+}
+
+</style> 
+</head>
+<body style=" background-image:url('black.jpg')">
+  
+ <div> 
+<href align="left" src="C:\Users\hp\Desktop\pizza.jpg">
+<img src="C:\Users\hp\Desktop\pizza.jpg"alt="image not available"float: right;>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;float: right;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    
+    <div class="container">
+      <label for="uname"><b><p style="color:black;">Username</P></b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b><p style="color:black;">Password</P></b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"><b><p style="color:black;">Remember me</P><b>
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<center>
+  <h1 style="color:whitesmoke;>
+   <div id="myDIV"><i>
+  Esternos<i>
+   </div>
+ </h1>
+  </center> 
+
+
+<center>
+  <div class="container">
+  <img src="C:\Users\hp\Desktop\description.jpg" alt="img not available">
+  <div class="top-left"> <i>pizza, dish of Italian origin consisting of a flattened disk of bread dough <br>topped with some combination of olive oil, oregano, tomato,olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.<br>
+
+One of the simplest and most traditional pizzas is the Margherita, which <br>is topped with tomatoes or tomato sauce, mozzarella, and basil. <br>Popular legend relates that it was named for Queen Margherita, <br>wife of Umberto I, who was said to have liked its mild fresh flavour <br>and to have also noted that its topping colours—green, white, <br>and red—were those of the Italian flag.
+</i>
+</div>
+</div>
+  </center>
+  <center>
+    <br>
+<table>
+  <tr>
+      <th colspan="2"><center><p style="color:whitesmoke;"><i>special dishes</i></p></center></th>
+  </tr>
+  <tr>
+    <td><center><href="C:\Users\hp\Desktop\chicken pizza.jpg">
+    <img src="C:\Users\hp\Desktop\chicken pizza.jpg"alt="image not available">
+    </center>
+    </td>
+    <td><span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span> 
+    <p style="color:whitesmoke;">
+      the wholesome flavour of tandoori masala with chicken tikka,onion,red paprika and mint mayoo
+    </p>
+    </td>
+   </tr>
+   <tr>
+    <td><center><href="C:\Users\hp\Desktop\corn pizza.jpg">
+    <img src="C:\Users\hp\Desktop\corn pizza.jpg"alt="image not available">
+    </center>
+    </td>
+    <td><span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+   <p style="color:whitesmoke;"> 
+     a mouthwatering medley fresh farmhouse pizza topped with green capsicum,sweetcorn,tomato and loaded with regular tomato sauce,cheese and black olives
+    </p> 
+   </tr>
+
+  <tr>
+    <td><center><href="C:\Users\hp\Desktop\brownie.jpg">
+    <img src="C:\Users\hp\Desktop\brownie.jpg"alt="image not available">
+    </center>
+    </td>
+    <td><span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span> 
+    <p style="color:whitesmoke;">  
+      the unique dessert with its soft gooey center,filled with delicious nutella is an absolute treat to your tastebuds.
+    </p>
+    </td>
+ 
+   <tr>
+    <td><center><href="C:\Users\hp\Desktop\veg pizza.jpg">
+    <img src="C:\Users\hp\Desktop\veg pizza.jpg"alt="image not available">
+    </center>
+    </td>
+    <td><span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span> 
+    <p style="color:whitesmoke;">  
+     this vegetarian recipe for Caramelized Onion, Goat Cheese and Kale Pizza with Balsamic Drizzle. These toppings are the perfect combinations of salty, sweet, and savory! 
+    </p>
+    </td>
+   </tr>
+</center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<h2 class="w3-left">
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="C:\Users\hp\Downloads\WhatsApp Image 2023-02-07 at 6.50.06 PM.jpeg" style="width:100%">
+  <img class="mySlides" src= "C:\Users\hp\Downloads\WhatsApp Image 2023-02-07 at 6.49.36 PM.jpeg"style="width:100%">
+  <img class="mySlides" src="C:\Users\hp\Downloads\WhatsApp Image 2023-02-07 at 6.49.20 PM.jpeg" style="width:100%">
+<img class="mySlides" src= "C:\Users\hp\Downloads\WhatsApp Image 2023-02-07 at 6.49.09 PM.jpeg"style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 4 seconds
+}
+</script>
+<img align="right" src="C:\Users\hp\Desktop\table.jpg" style="width:400px;height:300px;">
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>registration form</h1>
+
+    <form action="/action_page.php">
+ <fieldset>
+  <legend>Table reservation:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="phone">Phone no:</label>
+  <input type="phone" id="phone" name="phone"><br><br>
+  <label for="date">Date of resrvation:</label>
+  <input type="date" id="date" name="date"><br><br>
+  <label for="time">Time:</label>
+  <input type="time" id="time" name="time"><br><br>
+  <label for="people">No of People:</label>
+  <input type="people" id="people" name="people"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
